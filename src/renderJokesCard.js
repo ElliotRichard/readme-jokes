@@ -52,7 +52,7 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => 
     border = '2px solid transparent';
   }
   const card = `
-  <svg width="${svgWidth}" viewbox="0 0 90 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="${svgWidth}" viewbox="0 0 90 100" preserveAspectRatio="xMidYMin slice" style="padding-bottom: 92%; height: 1px; overflow: visible" fill="none" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="${width}" height="${height}">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
