@@ -1,7 +1,7 @@
 const width = '100%';
 const height = '100%';
 const svgWidth = '100%';
-
+const p
 // Question-Answer type card
 const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder) => {
   let border = `2px solid ${borderColor}`;
@@ -9,7 +9,7 @@ const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, h
     border = '2px solid transparent';
   }
   const card = `
-  <svg width="${svgWidth}" viewbox="0 0 90 100" preserveAspectRatio="xMidYMin slice" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="${svgWidth}" viewbox="0 0 90 100" preserveAspectRatio="xMaxYMin slice" fill="none" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="${width}" height="${height}">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
@@ -52,7 +52,7 @@ const quoteCard = (textColor, bg, borderColor, codeColor, qoute, hideBorder) => 
     border = '2px solid transparent';
   }
   const card = `
-  <svg width="${svgWidth}" viewbox="0 0 90 100" preserveAspectRatio="xMidYMin slice" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="${svgWidth}" viewbox="0 0 90 100" preserveAspectRatio="xMaxYMin slice" fill="none" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="${width}" height="${height}">
       <div xmlns="http://www.w3.org/1999/xhtml">
         <style>
