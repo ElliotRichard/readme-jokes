@@ -1,7 +1,7 @@
 const width = '100%';
 const height = '100%';
 const svgWidth = '100%';
-const p
+
 // Question-Answer type card
 const qnaCard = (qColor, aColor, bg, borderColor, codeColor, question, answer, hideBorder) => {
   let border = `2px solid ${borderColor}`;
